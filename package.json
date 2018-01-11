@@ -1,5 +1,5 @@
 {
-  "name": "proposal-generator",
+  "name": "proposal-generator-monoeci",
   "version": "1.0.2",
   "description": "",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yoyae/proposal-generator.git"
+    "url": "git+https://github.com/yoyae/proposal-generator-monoeci.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yoyae/proposal-generator/issues"
+    "url": "https://github.com/yoyae/proposal-generator-monoeci/issues"
   },
-  "homepage": "https://github.com/yoyae/proposal-generator#readme",
+  "homepage": "https://github.com/yoyae/proposal-generator-monoeci#readme",
   "devDependencies": {
     "bitcore-lib-monoeci": "^0.15.0",
     "browserify": "^14.3.0",
