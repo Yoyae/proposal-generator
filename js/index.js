@@ -1,13 +1,13 @@
-var Bitcore = require('bitcore-lib-dash');
+var Bitcore = require('bitcore-lib-monoeci');
 
 var socket;
 var paymentCycle;
 
-var mainnetProvider = 'https://insight.dashevo.org';
-var mainnetPrefix = '/insight-api-dash';
+var mainnetProvider = 'https://insight.yoyae.org';
+var mainnetPrefix = '/insight-api-monoeci';
 
-var testnetProvider = 'https://testnet-insight.dashevo.org';
-var testnetPrefix = '/insight-api-dash';
+var testnetProvider = 'https://testnet-insight.yoyae.org';
+var testnetPrefix = '/insight-api-monoeci';
 
 var init = function(network, provider, prefix) {
     var gov = new Bitcore.GovObject.Proposal();
