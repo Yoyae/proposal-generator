@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/yoyae/proposal-generator-monoeci#readme",
   "devDependencies": {
-    "bitcore-lib-monoeci": "^0.15.0",
+    "bitcore-lib-monoeci": ">0.15.2",
     "browserify": "^14.3.0",
     "eslint": "^4.8.0"
   }
