@@ -23,7 +23,7 @@ i.fa {
 }
 
 .header_title {
-  color: #1d71b8;
+  color: #131047;
   font-weight: 600;
   margin: 0;
 }
@@ -152,20 +152,20 @@ i.fa {
   display: inline-block;
   font-weight: 300;
   font-size: 1.3em;
-  background-color: #1c75bc;
+  background-color: #131047;
   color: #fff;
   box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.08), 0px 4px 6px 0px rgba(49,49,93,0.13);
   -webkit-transition: all .2s ease;
   transition: all .2s ease;
 }
 .nav>li.active>a:hover{
-  background-color: #1e7dc9;
+  background-color: #090728;
   transform: translateY(-1px);
   box-shadow: 0 7px 14px rgba(50,50,93,0.1), 0 3px 6px rgba(0,0,0,0.08);
 }
 .btn{
   font-weight: 300;
-  background-color: #1c75bc;
+  background-color: #131047;
   color: #fff;
   box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.08), 0px 4px 6px 0px rgba(49,49,93,0.13);
   -webkit-transition: all .2s ease;
@@ -174,7 +174,7 @@ i.fa {
 }
 
 .btn:hover,.btn:active,.btn:focus{
-  background-color: #1e7dc9;
+  background-color: #090728;
   color: #fff !important;
 }
 
@@ -187,7 +187,7 @@ i.fa {
 }
 
 .btn-success:hover,.btn-success:active,.btn-success:focus{
-  background-color: #1e7dc9;
+  background-color: #090728;
   color: #fff !important;
   transform: translateY(-1px);
   box-shadow: 0 7px 14px rgba(50,50,93,0.1), 0 3px 6px rgba(0,0,0,0.08);
@@ -195,7 +195,7 @@ i.fa {
 }
 
 a {
-  color: #3297e8;
+  color: #090728;
   text-decoration: none;
   font-weight: 300;
   -webkit-transition: all .2s ease;
@@ -207,6 +207,6 @@ a:visited {
 }
 
 a:hover {
-  color: #3b9ce9;
+  color: #2b24a0;
   text-decoration: none;
 }

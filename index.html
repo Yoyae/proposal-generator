@@ -25,7 +25,7 @@
     <script src="js/txListener.js"></script>
     <script src="js/formHandler.js"></script>
 
-    <script src="https://insight.yoyae.org/socket.io/socket.io.js"></script>
+    <script src="http://insight.monoeci.io/socket.io/socket.io.js"></script>
     <script src="vendor/index.js"></script>
     <script>
         function displayError(errorType){
@@ -77,11 +77,6 @@
   <div class="row" id="header">
       <div class="col-md-2">
         <img id="monoeci_logo" src="images/monoeci_logo.png" alt="monoeci governance tools">
-        <div class="row">
-          <div class="col-xs-12">
-            <h4><i>Governance Tools</i></h4>
-          </div>
-        </div>
       </div>
       <!--  -->
       <!--  -->
@@ -151,7 +146,7 @@
                 <div class="row" id="createProposalHeader">
                     <div class="col-xs-12">
                         <h1 class="removeMargin">Create a Proposal</h1>
-                        <h5 class="header_description">Enter details for your Proposal and click 'Create Proposal'.  This will generate a command you can run in your local wallet to prepare the Proposal at a cost of 5 XMCC.</h5>
+                        <h5 class="header_description">Enter details for your Proposal and click 'Create Proposal'.  This will generate a command you can run in your local wallet to prepare the Proposal at a cost of 50 XMCC.</h5>
                     </div>
                 </div>
 
@@ -276,7 +271,7 @@
 
                         <div class="form-group">
                             <label for="prepareProposal">Prepare Proposal Command:</label>
-                            <p>Paste the following into your wallet console to generate the Proposal at a cost of 5 XMCC.</p>
+                            <p>Paste the following into your wallet console to generate the Proposal at a cost of 50 XMCC.</p>
                             <textarea readonly class="form-control" id="prepareProposal" rows="4" placeholder=""></textarea>
                         </div>
 

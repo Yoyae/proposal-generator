@@ -3,10 +3,10 @@ var Bitcore = require('bitcore-lib-monoeci');
 var socket;
 var paymentCycle;
 
-var mainnetProvider = 'https://insight.yoyae.org';
+var mainnetProvider = 'http://insight.monoeci.io';
 var mainnetPrefix = '/insight-api-monoeci';
 
-var testnetProvider = 'https://testnet-insight.yoyae.org';
+var testnetProvider = 'http://testnet-insight.monoeci.io';
 var testnetPrefix = '/insight-api-monoeci';
 
 var init = function(network, provider, prefix) {
